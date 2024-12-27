@@ -1,0 +1,9 @@
+h,l,n=map(float,input().split())
+lst=list(map(float,input().split()))
+lst.sort()
+m=(n)//2
+m=int(m)
+v=lst[m]
+t=l/v
+ans=h-5.0*t*t
+print(f'{ans:.2f}')
